@@ -70,12 +70,14 @@ a {
 
 .navBtn,
 .btn {
+  border: 1px solid var(--border-color);
   width: 100%;
   max-width: 15rem;
   color: var(--mainDark);
   background: var(--mainWhite);
   padding: 0.8rem 1.5rem;
   border-radius: 5rem;
+  outline: none;
 }
 .Btn {
   width: 100%;
@@ -91,6 +93,8 @@ a {
   max-width: 15rem;
   background: var(--primary-color);
   color: var(--mainWhite);
+  outline: none;
+  border: none;
 }
 .hero {
   width: 100%;
